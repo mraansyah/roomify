@@ -1,87 +1,67 @@
-# Welcome to React Router!
+<h1 align="center">Roomify</h1>
+<p align="center">
+  <strong>AI-first architectural design environment built for speed and creativity</strong>
+</p>
 
-A modern, production-ready template for building full-stack React applications using React Router.
+<p align="center">
+  <img src="https://img.shields.io/badge/Framework-React%20Router%207-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Language-TypeScript-3178C6?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Cloud-Puter.js-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Design-TailwindCSS-38BDF8?style=for-the-badge" />
+</p>
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+<br />
 
-## Features
+<h2>✨ Key Features</h2>
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+<ul>
+  <li><strong>AI-Driven Rendering:</strong> Turn flat 2D plans into rich architectural visualizations instantly.</li>
+  <li><strong>Integrated Cloud Workspace:</strong> Powered by Puter.js for secure authentication, real-time storage, and high-performance asset hosting.</li>
+  <li><strong>Project Portfolio:</strong> Manage and organize all your architectural renderings in one place.</li>
+  <li><strong>High-Performance UI:</strong> A professional-grade interface designed for speed and responsiveness.</li>
+</ul>
 
-## Getting Started
+<br />
 
-### Installation
+<h2>🛠️ Built With</h2>
 
-Install the dependencies:
+<table>
+  <tr>
+    <td><strong>Framework</strong></td>
+    <td>React Router 7</td>
+  </tr>
+  <tr>
+    <td><strong>Language</strong></td>
+    <td>TypeScript</td>
+  </tr>
+  <tr>
+    <td><strong>Cloud Platform</strong></td>
+    <td>Puter.js</td>
+  </tr>
+  <tr>
+    <td><strong>Design</strong></td>
+    <td>Modern CSS & TailwindCSS</td>
+  </tr>
+</table>
+
+<br />
+
+<h2>📸 Preview</h2>
+<p>
+  <img width="100%" alt="Roomify Preview" src="https://github.com/user-attachments/assets/b697a241-f603-4dd6-8f62-58eb7a0bab54" />
+
+</p>
+
+<br />
+
+<h2>🚀 Getting Started</h2>
 
 ```bash
+# Clone repository
+git clone https://github.com/mraansyah/roomify.git
+
+# Install dependencies
 npm install
-```
 
-### Development
-
-Start the development server with HMR:
-
-```bash
+# Run development server
 npm run dev
-```
-
-Your application will be available at `http://localhost:5173`.
-
-## Building for Production
-
-Create a production build:
-
-```bash
-npm run build
-```
-
-## Deployment
-
-### Docker Deployment
-
-To build and run using Docker:
-
-```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
-
----
-
-Built with ❤️ using React Router.
