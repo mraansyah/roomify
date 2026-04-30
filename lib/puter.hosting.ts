@@ -34,7 +34,7 @@ export const uploadImageToHosting = async ({ hosting, url, projectId, label }:
       const contentType = resolved.contentType || resolved.blob.type || "";
       const ext = getImageExtension(contentType, url);
       const dir = `projects/${projectId}`;
-      const filePath = `$dir/${label}.${ext}`;
+      const filePath = `${dir}/${label}.${ext}`;
 
       const uploadFile = new File([resolved.blob], `${label}.${ext}`, {
         type: contentType,
