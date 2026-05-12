@@ -68,6 +68,7 @@
 
 <h2>🚀 Getting Started</h2>
 
+```bash
 # Clone repository
 git clone https://github.com/mraansyah/roomify.git
 
