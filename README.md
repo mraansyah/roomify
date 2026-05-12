@@ -12,6 +12,18 @@
 
 <br />
 
+<h2>🛠️ Environment Variables</h2>
+
+<p>Create a <code>.env.local</code> file in the root directory and add the following variable:</p>
+
+<pre>
+<code>VITE_PUTER_WORKER_URL=https://your-worker-name.puter.work</code>
+</pre>
+
+<p>Refer to <code>.env.example</code> for all required environment variables.</p>
+
+<br />
+
 <h2>✨ Key Features</h2>
 
 <ul>
@@ -56,7 +68,6 @@
 
 <h2>🚀 Getting Started</h2>
 
-```bash
 # Clone repository
 git clone https://github.com/mraansyah/roomify.git
 
