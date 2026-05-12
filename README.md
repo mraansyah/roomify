@@ -13,6 +13,17 @@ A modern, production-ready template for building full-stack React applications u
 - 🔒 TypeScript by default
 - 🎉 TailwindCSS for styling
 - 📖 [React Router docs](https://reactrouter.com/)
+16: 
+## Environment Variables
+
+Create a `.env.local` file in the root directory and add the following variable:
+
+```env
+VITE_PUTER_WORKER_URL=https://your-worker-name.puter.work
+```
+
+Refer to `.env.example` for the required environment variables.
+
 
 ## Getting Started
 
